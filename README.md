@@ -23,14 +23,16 @@ All of the transposed convolutional layer and convolutional layer are initilized
 ### Results
 * The learning rate is 0.0002, batch size is 128 and the optimizer is Adam.
 
+![alt tag](kamji.png)
+
 <table align='center'>
 <tr align='center'>
 <td> Gnerated Images </td>
 <td> DCGAN Loss </td>
 </tr>
 <tr>
-<td><img src='MNIST_result/result.gif'>
-<td><img src='MNIST_result/result_loss.gif'>
+<td><img src='DCGAN_epoch_20.png'>
+<td><img src='DCGAN_loss_epoch_20.png'>
 </tr>
 </table>
 
