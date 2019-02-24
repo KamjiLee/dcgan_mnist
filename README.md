@@ -34,40 +34,10 @@ All of the transposed convolutional layer and convolutional layer are initilized
 </tr>
 </table>
 
-## CelebA dataset
-* For CelebA image, the channel_size is 3 and image_size is 180 x 180, which has been aligned and cropped. And then, it will be resized to 64 x 64.
-### Results
-* The learning rate is 0.0002, batch size is 128 and the optimizer is Adam.
-
-<table align='center'>
-<tr align='center'>
-<td> Gnerated Images </td>
-<td> DCGAN Loss </td>
-</tr>
-<tr>
-<td><img src='CelebA_result/result.gif'>
-<td><img src='CelebA_result/result_loss.gif'>
-</tr>
-</table>
-
-## LSUN dataset
-* For LSUN image, the channel_size is 3. And then, it will be resized to 64 x 64.
-### Results
-* The learning rate is 0.0002, batch size is 1024 and the optimizer is Adam.
-
-<table align='center'>
-<tr align='center'>
-<td> Gnerated Images </td>
-<td> DCGAN Loss </td>
-</tr>
-<tr>
-<td><img src='LSUN_result/result.gif'>
-<td><img src='LSUN_result/result_loss.gif'>
-</tr>
-</table>
 
 ## References
 1. https://github.com/soumith/dcgan.torch
 2. https://github.com/znxlwm/pytorch-MNIST-CelebA-GAN-DCGAN
 3. https://github.com/togheppi/DCGAN
 4. https://github.com/carpedm20/DCGAN-tensorflow
+5. https://github.com/last-one/DCGAN-Pytorch
